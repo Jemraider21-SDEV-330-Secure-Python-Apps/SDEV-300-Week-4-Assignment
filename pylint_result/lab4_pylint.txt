@@ -1,0 +1,2 @@
+************* Module /home/kali/repos/SDEV-300-Week-4-Assignment/home/kali/repos/SDEV-300-Week-4-Assignment/lab4.py
+home/kali/repos/SDEV-300-Week-4-Assignment/lab4.py:1:0: F0001: No module named home/kali/repos/SDEV-300-Week-4-Assignment/lab4.py (fatal)
