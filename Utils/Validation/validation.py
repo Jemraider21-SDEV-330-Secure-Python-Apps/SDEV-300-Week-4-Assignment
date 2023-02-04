@@ -117,7 +117,7 @@ def validate_is_float(input_name: str, additional_info: str = "") -> float:
     return user_input
 
 
-def validate_is_number(input_name: str, additional_info: str = "") -> int:
+def validate_is_int(input_name: str, additional_info: str = "") -> int:
     """Validate that the user input is not blank and it can be converted to an int
 
     Args:
@@ -130,7 +130,7 @@ def validate_is_number(input_name: str, additional_info: str = "") -> int:
         InvalidInputException: Incorrect or unexpected user input
 
     Returns:
-        [int: The user input
+        int: The user input
     """
     user_input: int = 0
     looper: bool = True
