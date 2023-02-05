@@ -3,7 +3,6 @@
 Raises:
     InvalidInputException: User entered something not expected, so throw an exception
 """
-from typing import Union
 
 
 class InvalidInputException(Exception):

@@ -1,0 +1,7 @@
+************* Module matrix
+Utils/Matrix/matrix.py:4:0: E0401: Unable to import 'Utils.Validation.validation' (import-error)
+Utils/Matrix/matrix.py:5:0: E0401: Unable to import 'Utils.Matrix.matrixutils' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 8.21/10 (previous run: 8.28/10, -0.06)
+

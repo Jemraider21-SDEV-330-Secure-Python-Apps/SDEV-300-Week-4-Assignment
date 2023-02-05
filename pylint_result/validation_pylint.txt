@@ -1,2 +1,4 @@
-************* Module /home/kali/repos/SDEV-300-Week-4-Assignment/home/kali/repos/SDEV-300-Week-4-Assignment/Validation/validation.py
-home/kali/repos/SDEV-300-Week-4-Assignment/Validation/validation.py:1:0: F0001: No module named home/kali/repos/SDEV-300-Week-4-Assignment/Validation/validation.py (fatal)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

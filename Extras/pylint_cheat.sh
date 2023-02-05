@@ -7,21 +7,22 @@ if [ ! -d "$dir" ]; then
     mkdir $dir
 fi
 
-# $1 = Name of file (ex: lab4)
-# $2 = Directory (ex: ./temp)
+# $1 = name of file
+# $2 = path to python file
 pylinter(){
-    python_file="$main/$1.py"
+    python_file="$main/$2"
     pylint_report="$dir/$1_pylint.txt"
-    echo "Adding pylint result for $python_file - $pylint_report"
+    echo "Adding pylint result for $1 - $pylint_report"
     if [ ! -f "$pylint_report" ]; then
         touch $pylint_report
     fi
-    pylint "$main$python_file" > $pylint_report
+    pylint $python_file > $pylint_report
+    echo "Finished creating pylint result for $1"
+    echo ""
 }
 
 # Pylinting files
-pylinter "lab4" ""
-#pylinter "validation" "Validation/"
-
-# Done doing stuff. Exit
-echo "Done performing pylinting"
+pylinter "lab4" "lab4.py"
+pylinter "matrix" "Utils/Matrix/matrix.py"
+pylinter "matrixutils" "Utils/Matrix/matrixutils.py"
+pylinter "validation" "Utils/Validation/validation.py"
